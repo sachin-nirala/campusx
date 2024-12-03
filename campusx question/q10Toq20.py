@@ -7,3 +7,4 @@ if revenue_cost < 0:
     print(f"you lost {revenue_cost}rs")
 else:
     print(f"you are in profit and your profit is {revenue_cost}rs")
+    print("This is Sachin this side.")
