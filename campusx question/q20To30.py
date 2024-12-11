@@ -33,21 +33,46 @@ b = 20
 # print(2**3)
 #question(27)-------------------------------------------
 # Write a program to print the first 25 odd numbers
-count = 0
-for i in range(1,10000):
-    if i % 2 != 0:
-    # count = count + 1
-        print(i)
-        count = count + 1
-        if count == 25:
-            break
+# count = 0
+# for i in range(1,10000):
+#     if i % 2 != 0:
+#     # count = count + 1
+#         print(i)
+#         count = count + 1
+#         if count == 25:
+#             break
             
     
-print("counting of 'C'",count)
+# print("counting of 'C'",count)
 
-for i in range (1,50,2):
-    print(i)
+# for i in range (1,50,2):
+#     print(i)
 
+
+
+#Question.(26)
+#Write a program that can find the factorial of a given number provided by the user.
+# num = int(input("Enter a number:- "))
+# fact = 1
+# for i in range(1,num + 1):
+#     fact = fact * i
+# print(fact)
+
+
+#question: - 28---------------------------------------------------------------
+#Write a program to print whether a given number is prime number or not.
+
+num = int(input("Enter a number:- "))
+if num > 1:
+    for i in range(2,num):
+        if num % i == 0:
+            print("Not prime")
+            break
+    else:
+        print('prime')
+else:
+    print("Prime number can't be 1 or less then 1.")
+  
 
 
 
